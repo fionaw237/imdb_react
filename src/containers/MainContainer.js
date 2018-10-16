@@ -33,7 +33,7 @@ class MainContainer extends Component {
   render(){
     return (
       <div className="main-container">
-        <h1>UK Opening This Week</h1>
+        <h1 className="main-headings">UK Opening This Week</h1>
        <TopContainer data={this.state.data}/>
        <hr></hr>
        <button>Get Showtimes >></button>
