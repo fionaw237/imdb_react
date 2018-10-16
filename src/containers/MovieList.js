@@ -10,9 +10,9 @@ const MovieList = (props) => {
   })
 
   return (
-    <div className="movie-list">
+    <ul className="movie-list">
       {movies}
-    </div>
+    </ul>
   )
 }
 

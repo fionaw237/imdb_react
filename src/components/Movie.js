@@ -2,10 +2,10 @@ import React from 'react';
 
 const Movie = (props) => {
   return (
-    <div className="movie">
-      - {props.title + " "}
-      <a href=".">Showtimes</a>
-    </div>
+    <li className="movie">
+      {props.title + " "}
+      <a className="showtimes-link" href=".">Showtimes</a>
+    </li>
   )
 }
 
